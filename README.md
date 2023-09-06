@@ -1,6 +1,6 @@
 # FE-Code-Labs-Class-5-Exercises
 
-Learned about Scopes, 
+Learned about Scopes
 
 
 ***Tasks for Understanding JavaScript Scope***
