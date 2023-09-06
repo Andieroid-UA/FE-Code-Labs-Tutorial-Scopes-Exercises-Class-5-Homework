@@ -1,6 +1,13 @@
 # FE-Code-Labs-Class-5-Exercises
 
-Learned about Scopes
+Learned about Scopes and their types:
+- Global
+- Module <-- will be dealing mostly with these
+- Function
+- Block (local) <-- will be dealing mostly with these
+
+What is a Scope?
+"Set of code that has all your variables to find, and they are only accessable in that scope"
 
 
 ***Tasks for Understanding JavaScript Scope***
