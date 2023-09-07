@@ -1,3 +1,6 @@
+const globalVar = "Global"
+
+/*
 const a = 1
 
 function test() {
@@ -7,3 +10,4 @@ function test() {
 
 test()
 console.log(a,b)
+*/
