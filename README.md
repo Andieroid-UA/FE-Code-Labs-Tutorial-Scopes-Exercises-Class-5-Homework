@@ -59,11 +59,11 @@ Anything on the inside has access to the things on the outside, access to it's p
 **Tasks for JS Hoisting**
 1. What is the expected outcome of the following:
 
-//book('The Magicians Nephew');
+book('The Magicians Nephew');
 
-//function book(title) {
-//    console.log(`the book is called ${title}`);
-//}
+funcion book(title) {
+    console.log(`the book is called ${title}`);
+}
 ------------------------
 Andie's Response: It will update the console to read "the book is called The Magicians Nephew" because it is a function being declaired
 
@@ -76,7 +76,7 @@ Correct Answer: correct, except "The" is capitalized.
 
 //console.log(book);
 
-//let book = 'The Silver Chair';
+//lett book = 'The Silver Chair';
 ----------------------
 Andie's Response: It will post an undefined since it's trying to find the book title, but it's a function expression/initialization so it can't grab the information beneath it. Need to swap around.
 
