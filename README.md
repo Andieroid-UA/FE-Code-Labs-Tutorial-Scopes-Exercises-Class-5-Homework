@@ -56,7 +56,7 @@ A closure is a feature of JavaScript that allows inner functions to access the o
 Anything on the inside has access to the things on the outside, access to it's parent scope, it's parent's parent and so on...
 
 -----------------------------------------------------------------
-##**Tasks for JS Hoisting**
+## **Tasks for JS Hoisting**
 1. What is the expected outcome of the following:
 
 book('The Magicians Nephew');
@@ -88,7 +88,7 @@ Correct Answer: Yes but it will put a reference error. It cannot access book bef
 let book = "The Silver Chair"
 console.log(book);
 
-##**Tasks for Understanding JavaScript Scope**
+## **Tasks for Understanding JavaScript Scope**
 1. Create three variables in the global scope called firstName, lastName and age, and a function that logs them to the console in the following format e.g. 'John Smith is 25 years old'.
 
 2. Move the variables into the local scope of the functino and add another variable this time called country, add this to our statement '...and lives in England'.
