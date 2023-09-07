@@ -36,14 +36,14 @@ In short, lift. Pulls up declarations. Not initilazations or expressions.
 ### Declaration
 The var and function are declaration statements—they declare or define variables and functions. These statements define identifiers (variable and function names) that can be used elsewhere in your program and assign values to those identifiers.
 
-let game;
-console.log(game); //undefined
+//let game;
+//console.log(game); //undefined
 
 ### Initialization
 Initialization is the means of assigning an initial value to a variable. So undefined is the initial value of a declared variable. Seeing this though various times; var thing = "code"; The variable thing is initialized with "code" .
 
-game = "Super Mario";
-console.log(game);// Super Mario
+//game = "Super Mario";
+//console.log(game);// Super Mario
 
 ### JS Variable Lifecycle
 I. Declaration - let author;
@@ -59,11 +59,11 @@ Anything on the inside has access to the things on the outside, access to it's p
 **Tasks for JS Hoisting**
 1. What is the expected outcome of the following:
 
-book('The Magicians Nephew');
+//book('The Magicians Nephew');
 
-function book(title) {
-    console.log(`the book is called ${title}`);
-}
+//function book(title) {
+//    console.log(`the book is called ${title}`);
+//}
 ------------------------
 Andie's Response: It will update the console to read "the book is called The Magicians Nephew" because it is a function being declaired
 
@@ -74,19 +74,19 @@ Correct Answer: correct, except "The" is capitalized.
 
 2. What is the expected outcome of the following? How would you fix this?
 
-console.log(book);
+//console.log(book);
 
-let book = 'The Silver Chair';
+//let book = 'The Silver Chair';
 ----------------------
 Andie's Response: It will post an undefined since it's trying to find the book title, but it's a function expression/initialization so it can't grab the information beneath it. Need to swap around.
 
-let book = 'The Silver Chair';
-console.log(book);
+//let book = 'The Silver Chair';
+//console.log(book);
 
 Correct Answer: Yes but it will put a reference error. It cannot access book before intitialization. Create variables first:
 
-let book = "The Silver Chair"
-console.log(book);
+//let book = "The Silver Chair"
+//console.log(book);
 
 **Tasks for Understanding JavaScript Scope**
 1. Create three variables in the global scope called firstName, lastName and age, and a function that logs them to the console in the following format e.g. 'John Smith is 25 years old'.
@@ -97,11 +97,11 @@ console.log(book);
 
 4. What will the following code return?
 
-let game 'Sonic';
+//let game 'Sonic';
 
-if(true) {
-    let game = 'Mario';
-    console.log(game);
-}
+//if(true) {
+//    let game = 'Mario';
+//    console.log(game);
+//}
 
-console.log(game);
+//console.log(game);
