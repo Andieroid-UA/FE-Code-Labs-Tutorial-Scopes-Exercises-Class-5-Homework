@@ -56,7 +56,7 @@ A closure is a feature of JavaScript that allows inner functions to access the o
 Anything on the inside has access to the things on the outside, access to it's parent scope, it's parent's parent and so on...
 
 -----------------------------------------------------------------
-**Tasks for JS Hoisting**
+## **Tasks for JS Hoisting**
 1. What is the expected outcome of the following:
 
 book('The Magicians Nephew');
@@ -64,7 +64,7 @@ book('The Magicians Nephew');
 function book(title) {
     console.log(`the book is called ${title}`);
 }
-------------------------
+
 Andie's Response: It will update the console to read "the book is called The Magicians Nephew" because it is a function being declaired
 
 Correct Answer: correct, except "The" is capitalized.
@@ -77,7 +77,7 @@ Correct Answer: correct, except "The" is capitalized.
 console.log(book);
 
 let book = 'The Silver Chair';
-----------------------
+
 Andie's Response: It will post an undefined since it's trying to find the book title, but it's a function expression/initialization so it can't grab the information beneath it. Need to swap around.
 
 let book = 'The Silver Chair';
@@ -88,7 +88,7 @@ Correct Answer: Yes but it will put a reference error. It cannot access book bef
 let book = "The Silver Chair"
 console.log(book);
 
-**Tasks for Understanding JavaScript Scope**
+## **Tasks for Understanding JavaScript Scope**
 1. Create three variables in the global scope called firstName, lastName and age, and a function that logs them to the console in the following format e.g. 'John Smith is 25 years old'.
 
 2. Move the variables into the local scope of the functino and add another variable this time called country, add this to our statement '...and lives in England'.
